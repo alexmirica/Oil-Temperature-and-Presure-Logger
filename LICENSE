@@ -1,0 +1,143 @@
+TECH ART ELECTRONICS
+NON-COMMERCIAL SOFTWARE LICENSE
+
+Copyright (c) 2026 Tech Art Electronics
+Author: Dipl. Ing. Alexandru-Bogdan Mirica
+
+Project: Oil Pressure, Oil Temperature, Battery Voltage Logger and Serial Monitor
+
+---
+
+## 1. GRANT OF RIGHTS
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated source code (the "Software"), to use, copy,
+modify, and study the Software, subject to the restrictions set forth below.
+
+The Software may be used for:
+
+* Personal use
+* Private projects
+* Educational purposes
+* Research and experimentation
+* Non-commercial hobby projects
+* Modification and creation of derivative versions for non-commercial use
+* Non-commercial redistribution of the original or modified Software
+
+---
+
+## 2. NON-COMMERCIAL RESTRICTION
+
+The original code covered by this license, or any substantial portion of it,
+may NOT be:
+
+* Sold, licensed, leased, rented, or otherwise provided for commercial gain
+* Used as part of a commercial product or service
+* Incorporated into hardware or software that is manufactured, sold, or
+  commercially distributed
+* Used to provide a paid service or commercial functionality
+* Distributed as part of a commercial product, kit, package, or solution
+* Used by a business or other commercial entity for commercial purposes
+
+Commercial use of the original code covered by this license requires prior
+written permission from Tech Art Electronics or from the copyright holder,
+Dipl. Ing. Alexandru-Bogdan Mirica.
+
+---
+
+## 3. MODIFICATION AND REDISTRIBUTION
+
+You may modify the original code covered by this license for your own
+non-commercial purposes.
+
+You may redistribute the original code or your modified version for
+non-commercial purposes, provided that:
+
+* This copyright notice is retained.
+* This license is included with the redistributed Software.
+* The original author and copyright holder are clearly identified.
+* You do not represent modified versions as the original work.
+* You do not imply endorsement by Tech Art Electronics or
+  Dipl. Ing. Alexandru-Bogdan Mirica without explicit written permission.
+
+---
+
+## 4. ATTRIBUTION
+
+Any redistribution of the original code covered by this license, or
+substantial portions of that code, must retain the following attribution:
+
+"Oil Pressure, Oil Temperature, Battery Voltage Logger and Serial Monitor
+Copyright (c) 2026 Tech Art Electronics
+Author: Dipl. Ing. Alexandru-Bogdan Mirica"
+
+---
+
+## 5. COMMERCIAL LICENSING
+
+A separate commercial license may be obtained by contacting:
+
+Tech Art Electronics
+Dipl. Ing. Alexandru-Bogdan Mirica
+
+Commercial licensing may permit uses that are prohibited by this license,
+subject to terms agreed upon in writing.
+
+---
+
+## 6. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL TECH ART ELECTRONICS, DIPLO. ING. ALEXANDRU-BOGDAN MIRICA,
+OR THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF,
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+THE SOFTWARE IS INTENDED FOR EXPERIMENTAL, EDUCATIONAL, AND NON-COMMERCIAL
+USE. THE AUTHOR MAKES NO REPRESENTATION THAT THE SOFTWARE IS SUITABLE FOR
+AUTOMOTIVE, SAFETY-CRITICAL, OR OTHER PARTICULAR APPLICATIONS.
+
+---
+
+## 7. THIRD-PARTY COMPONENTS
+
+This license applies **only to original code authored by Tech Art Electronics
+and/or Dipl. Ing. Alexandru-Bogdan Mirica**.
+
+Third-party libraries, frameworks, tools, and other components included in
+or used by the project remain subject to their respective licenses.
+
+Nothing in this license grants, restricts, or otherwise modifies rights to
+third-party software. Such software is governed exclusively by its applicable
+license terms.
+
+This project includes the **New LiquidCrystal** library by Francisco
+Malpartida.
+
+The New LiquidCrystal library is licensed under the **GNU General Public
+License version 3.0 (GPL-3.0)**.
+
+The LiquidCrystal library and its source files remain subject to the
+GPL-3.0 and are **not covered by the non-commercial restrictions of this
+license**.
+
+The original LiquidCrystal license notice is retained in:
+
+`lib/LiquidCrystal/README.md`
+
+Users of the LiquidCrystal library must comply with the GPL-3.0 and any
+other applicable third-party license terms.
+
+---
+
+## 8. COPYRIGHT
+
+All rights not expressly granted by this license with respect to the
+original code are reserved by Tech Art Electronics and the copyright holder.
+
+Copyright (c) 2026 Tech Art Electronics
+Author: Dipl. Ing. Alexandru-Bogdan Mirica
