@@ -567,6 +567,26 @@ void processCommand(char *cmd) {
   printHelp();
 }
 
+void printFile(const char *name) {
+  if (!SDinitialized) {
+    Serial.println(F("SD Card Error"));
+    return;
+  }
+
+  File f = SD.open(name, FILE_READ);
+
+  if (!f) {
+    Serial.print(name);
+    Serial.println(F(" not found."));
+    return;
+  }
+
+  while (f.available())
+    Serial.write(f.read());
+
+  f.close();
+}
+
 void printHelp() {
   Serial.println();
   Serial.println(F("Commands:"));
@@ -605,34 +625,6 @@ void listDirectory() {
   }
 
   root.close();
-}
-
-void printFile(const char *name) {
-  if (!SDinitialized) {
-    Serial.println(F("SD Card Error"));
-    return;
-  }
-
-  File f = SD.open(name, FILE_READ);
-
-  if (!f) {
-    Serial.print(F("File "));
-    Serial.print(name);
-    Serial.println(F(" not found."));
-    return;
-  }
-
-  Serial.print(F("--- "));
-  Serial.print(name);
-  Serial.println(F(" ---"));
-
-  while (f.available())
-    Serial.write(f.read());
-
-  f.close();
-
-  Serial.println();
-  Serial.println(F("--- EOF ---"));
 }
 
 void deleteFile(const char *name) {
